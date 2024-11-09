@@ -27,3 +27,24 @@ The program should simulates 1000 individual battle rounds in Risk (3 attacker v
 One battle round is one shake of the attacker and defender dice.
 
  
+ ### 4. Knock Airport Weather
+
+ Create a python file or notebook called assignment_6_Weather (.py or .ipynb)
+
+Get the data from this link.
+
+https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv
+
+
+Plot:
+
+* The temperature
+* The mean temperature each day
+* The mean temperature for each month
+
+Plot:
+
+* The Windspeed (there is data missing from this column)
+* The rolling windspeed (say over 24 hours)
+* The max windspeed for each day
+* The monthly mean of the daily max windspeeds
