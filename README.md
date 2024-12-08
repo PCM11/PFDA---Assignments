@@ -2,8 +2,7 @@
 # Pfda-assignments Repository
 **by: Phumi Tshidi (phumitshidi@gmail.com)**
 
-<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/Pandas-01-scaled.webp
-" width="400" height="250">
+<img src="https://blog.enterprisedna.co/wp-content/uploads/2023/06/jase888_a_photo_of_a_panda_bear_programming_on_a_computer_moder_d6cde95e-4b74-40ed-be3b-98a3964a2537.png" width="400" height="250">
 
 ## About the repository
 
