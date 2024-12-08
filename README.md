@@ -1,42 +1,78 @@
 
-# My pfda-assignments Repository
+# Pfda-assignments Repository
+**by: Phumi Tshidi (phumitshidi@gmail.com)**
 
-** by Phumi Tshidi (phumitshidi@gmail.com)**
+<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/Pandas-01-scaled.webp
+" width="400" height="250">
 
-## About the repository.
- This repository contains my assignment submission for 24-25: 4369 - PROGRAMMING FOR DATA ANALYTICS module. It consists of four assignments.
+## About the repository
 
-## 1. Weather 
-<img src="https://i.pinimg.com/736x/a9/63/75/a96375efd62d2f09718112ae437a4352.jpg" width="150" height="150">
+Welcome to the pfda_assignments repository! This repository contains a collection of Jupyter notebooks that cover a variety of data analysis topics. Below is a brief description of each notebook, along with instructions on how to set up your environment and run the notebooks using Anaconda and Visual Studio Code.
 
-A jupyter notebook that has a plot of the temperature over time ("dryBulbTemperature_Celsius" ). 
+## Overview
+
+1. **Weather.ipynb**: This notebook visualizes temperature over time. The dataset contains temperature data, and the notebook generates a line plot to show the temperature trends over a specific period.
+   
+2. **Pie.ipynb**: This notebook creates a pie chart representing the distribution of people's email domains.
+
+3. **Risk.ipynb**: This notebook simulates 1,000 individual battle rounds in the Risk board game, where 3 attackers face off against 2 defenders. The results are visualized using various plots to analyze the outcomes and probabilities.
+
+4. **Weatherdata.ipynb**: This notebook focuses on analyzing weather data for Knock Airport. The analysis includes temperature and wind speed over a given period.
+
+## Requirements
+
+To run these notebooks, ensure that you have the following tools and dependencies installed:
+
+- **Anaconda**: A Python distribution that includes Jupyter Notebooks and a wide array of scientific libraries.
+- **Visual Studio Code**: A code editor that can be configured with Jupyter extensions to run notebooks interactively.
+
+## Dependencies
+The notebooks use several Python libraries, including:
+
+- pandas
+- matplotlib
+- seaborn
+- numpy
+- jupyter
 
 
- ## 2. Domains
+### Installing Anaconda
 
-<img src="https://www.upflip.com/wp-content/uploads/2024/01/Domain-option-concept.jpg" width="160" height="150">
+1. Download and install [Anaconda](https://www.anaconda.com/products/distribution) for your operating system.
+2. During installation, make sure to add Anaconda to your system path.
 
-A notebook showing a pie chart of peoples email domains in the csv file at the url:
+### Running the Notebooks in Anaconda
 
-https://drive.google.com/uc?id=1AWPf-pJodJKeHsARQK_RHiNsE8fjPCVK&export=download
+**1. Create a Conda Environment** (Optional but recommended):
+   Open Anaconda Prompt or your terminal and run the following commands:
 
+   ```bash
+   conda create -n pfda_assignments python=3.9
+   conda activate pfda_assignments
+   ```
 
-## 3. Risk Board Game
+**2. Install Required Libraries:** The following libraries are required to run the notebooks:
 
-<img src="https://s.catch.com.au/images/product/0018/18042/5c7cf7b8f1289241097255.jpg" width="150" height="150">
+```bash
+conda install jupyter matplotlib pandas
+```
 
-The program simulates 1000 individual battle rounds in Risk game(3 attacker vs 2 defender) and the results are plotted in a chart.
+**3. Launch Jupyter Notebook:** Navigate to your project directory in the terminal and start Jupyter Notebook by running:
 
-One battle round is one shake of the attacker and defender dice.
+```bash
+jupyter notebook
+```
 
- 
- ## 4. Knock Airport Weather
+This will open the Jupyter Notebook interface in your default browser, where you can select and run the individual notebooks.
 
-<img src="https://h2.commercev3.net/cdn.bitsandpieces.com/images/1000/40272.jpg" width="150" height="150">
+## Running the Notebooks in Visual Studio Code
 
-This notebook analyses the dataframe from the link:
+**1. Install Visual Studio Code:** Download and install Visual Studio Code if you don't have it already.
 
-https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv
+**2. Install Python and Jupyter Extensions:** Install the Python extension and the Jupyter extension for Visual Studio Code. These can be found in the Extensions Marketplace within VS Code.
 
-The plots showing temperature and windspeed are charted.
+**3. Open the Repository:** Open the pfda_assignments repository folder in Visual Studio Code.
 
+**4. Select the Python Interpreter:** In the Command Palette (Ctrl+Shift+P), type "Python: Select Interpreter" and select the Conda environment you created earlier or your default Python environment.
+
+**5. Run the Notebook:** You can now open any of the .ipynb files and run them interactively inside Visual Studio Code.
