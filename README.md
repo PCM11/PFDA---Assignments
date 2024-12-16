@@ -10,7 +10,7 @@
 - **Contents:** Describes the assignments and their purposes.
 - **Requirements:** Lists dependencies required to run the notebook.
 - **Usage Instructions:** Explains what the notebook does and how to interact with it.
-- **Running the Jupyter Notebook:** Provides instructions for running the notebook using both Anaconda, Visual  Studio Code or Google Colab.
+- **Running the Jupyter Notebook:** Provides instructions for running the notebook using Anaconda and Visual  Studio Code.
 - **Conclusion**: Provides the reader with the outcome.
 
 ## Overview
