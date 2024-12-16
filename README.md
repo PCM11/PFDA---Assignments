@@ -2,7 +2,7 @@
 # Pfda-Assignments Repository
 **by: Phumi Tshidi (phumitshidi@gmail.com)**
 
-<img src="https://blog.enterprisedna.co/wp-content/uploads/2023/06/jase888_a_photo_of_a_panda_bear_programming_on_a_computer_moder_d6cde95e-4b74-40ed-be3b-98a3964a2537.png" width="" height="300">
+<img src="https://blog.enterprisedna.co/wp-content/uploads/2023/06/jase888_a_photo_of_a_panda_bear_programming_on_a_computer_moder_d6cde95e-4b74-40ed-be3b-98a3964a2537.png" width="700" height="400">
 
 ## Key Sections
 
@@ -86,3 +86,5 @@ jupyter notebook
 This will open the Jupyter Notebook interface in your default browser, where you can select and run the individual notebooks.
 
 ## Conclusion
+
+Overall, the repository effectively combines data visualization, statistical analysis, and simulation to offer valuable insights into weather, user behavior, and game mechanics, showcasing the power of Jupyter notebooks for exploratory data analysis and simulation tasks.
